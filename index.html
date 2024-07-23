@@ -391,11 +391,23 @@
           </li>
         </ul>
       </div>
+      <div class="footer-right">
+        <p class="footer-social">Subscribe</p>
+        <form class="footer-form">
+          <label class="footer-label" for="email"></label>
+          <input class="footer-input" type="email" id="email" name="email" placeholder="E-mail">
+          <button class="footer-btn" type="submit">Subscribe
+            <svg class="icon-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
   </footer>
 
-  <div class="backdrop is-open">
-    <!-- <div class="backdrop"> -->
+  <div class="backdrop">
+    <!-- <div class="backdrop is-open"> -->
     <div class="modal">
       <button type="button" class="modal-close-btn">
         <svg class="icon-close" width="8" height="8">
@@ -431,21 +443,21 @@
             </svg>
           </div>
         </div>
-        <div class="modal-field">
+        <div class="modal-field modal-textarea">
           <label class="modal-label" for="user-comment">Comment</label>
           <textarea class="modal-comment" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
         </div>
-        <div class="modal-field">
+        <div class="modal-field modal-checkbox">
           <input type="checkbox" class="modal-check visually-hidden" name="terms" id="terms" value="true">
           <label class="modal-check-text" for="terms">
             <span class="check-mark">
               <svg width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
-            </span> I accept the terms and conditions of the Privacy
-            Policy</label>
+            </span> I accept the terms and conditions of the<a class="modal-policy" href="">Privacy
+              Policy</a> </label>
         </div>
-        <button type="submit">Send</button>
+        <button class="hero-btn" type="submit">Send</button>
       </form>
     </div>
   </div>
