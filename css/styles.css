@@ -564,9 +564,13 @@ img {
 }
 
 .modal-close-btn {
-    position: relative;
-    display: block;
-    margin-left: auto;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -591,8 +595,7 @@ img {
 
 
 
-.modal-form {    
-}
+.modal-form {}
 
 .modal-text {
     font-weight: 500;
@@ -714,14 +717,8 @@ img {
 }
 
 .modal-btn {
-    /* position: absolute;
-    top: 24px;
-    right: 24px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-
+    display: block;
+    margin: 0 auto;
     font-family: inherit;
     min-width: 169px;
     font-weight: 500;
