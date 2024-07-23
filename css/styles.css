@@ -648,6 +648,7 @@ img {
 
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-input {
@@ -656,8 +657,7 @@ img {
     height: 40px;
     background-color: #2e2f42;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    padding-left: 16px; 
-    margin-right: 24px;   
+    padding-left: 16px;     
 }
 
 .footer-input:focus {
