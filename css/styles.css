@@ -697,10 +697,10 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99; 
+    color: #8e8f99;    
 }
 
-.modal-check-text .check-mark {
+.check-mark {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
