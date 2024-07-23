@@ -701,6 +701,7 @@ img {
     display: flex;
     align-items: center;
     gap: 8px;
+    display: inline-flex;
 }
 
 .modal-check-text .check-mark {
