@@ -697,10 +697,8 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    color: #8e8f99;    
+    align-items: center;    
     display: inline-flex;
 }
 
@@ -714,6 +712,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .modal-check:checked+.modal-check-text .check-mark {
