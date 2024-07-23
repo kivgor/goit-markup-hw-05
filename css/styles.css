@@ -565,7 +565,7 @@ img {
 }
 
 .modal-field-wrap {
-    position: relative;    
+    position: relative;
 }
 
 .modal-icon {
@@ -587,10 +587,41 @@ img {
     resize: none;
 }
 
-.modal-comment::placeholder {    
+.modal-comment::placeholder {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-comment:focus {
+    border-color: #4d5ae5;
+}
+
+.modal-check-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-check-text .check-mark {    
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill:transparent;
+}
+
+.modal-check:checked + .modal-check-text .check-mark {
+background-color: #404bbf;
+border: none;
+fill: #f4f4fd;
 }
